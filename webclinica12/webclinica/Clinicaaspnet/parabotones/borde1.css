@@ -1,0 +1,18 @@
+.centradoRosa{
+    font-family: verdana;
+    font-size: 15px;
+    text-align: center;
+    background-color:white;
+    height: 30px;
+}
+.descripcion{
+    margin:0;
+padding:0;
+        font-family: verdana;
+    font-size: 15px;
+}
+.valor{
+      font-family: verdana;
+    font-size: 15px;
+}
+    

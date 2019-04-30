@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.mmm{
+position: absolute;
+position: fixed;
+	width: 250px;
+	height: 250px;
+	
+	position: relative;
+	top: -50px;
+	left: -50px;
+	transition: 1s;
+}
+.top{
+	width: 250px;
+	height: 50px;
+	display: flex;
+	background-color: #ca0000;
+	position: absolute ;
+	border-radius: 0 0 20px 0;
+}
+.left{
+	width: 50px;
+	height: 250px;
+	position: absolute ;
+	background-color: #ca0000;
+	border-radius: 0 0 20px 0;
+}
+.item{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 25px;
+}
+.m{
+	width: 60px;
+	height: 60px;
+	background-color: #ca0000;
+	
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.m div{
+	transform: rotate(90deg);
+	color: #fff;
+	font-size: 25px;
+}
+#x{
+	display: none;
+}
+#mm{
+	width: 60px;
+	height: 60px;
+	position: absolute ;
+	top: 60px;
+	left: 60px;
+	transition: 1s;
+}
+.drop{
+	width: 60px;
+	height: 60px;
+	background-color: #ca0000;
+	position: absolute;
+	border-radius: 50px;
+	color: #fff;
+	 font-size: 25px;
+	top: -60px;
+	left: -60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 1.5s;
+}

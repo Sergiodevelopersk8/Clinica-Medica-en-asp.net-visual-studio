@@ -1,0 +1,38 @@
+﻿#TablaAlumnos {
+    width: 85px;
+    margin: auto;
+    display: block;
+}
+
+#TodosHorarios {
+    width: 675px;
+    margin: auto;
+    display: block;
+}
+.TablasView {
+    display: block;
+    margin: 3px auto;
+    background-color: mediumpurple;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .TablasView th, td {
+        padding: 20px;
+    }
+
+    .TablasView thead {
+        background-color: #0e99cc;
+        border-bottom: solid 5px #0F362D;
+        color: white;
+    }
+
+    .TablasView tr:nth-child(even) {
+        background-color: #ddd;
+    }
+
+    .TablasView tr:hover {
+        background-color: #750358;
+        color: white;
+    }
